@@ -28,7 +28,7 @@ Highcharts.chart('survey-respondents', {
   },
   series: [{
     name: 'Respondents',
-    data: [475, 10, 6, 2, 2, 1, 1, 1, 1]
+    data: [488, 10, 6, 2, 3, 1, 1, 1, 1]
   }]
 });
 
@@ -172,6 +172,6 @@ Highcharts.chart('survey-coding-hobby', {
   },
   series: [{
     name: 'Percentage',
-    data: [77, 23]
+    data: [72.4, 27.6]
   }]
 });
