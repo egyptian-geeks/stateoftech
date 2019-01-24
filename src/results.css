@@ -87,3 +87,15 @@ body > .container-fluid {
 #survey-respondents {
   height: 600px
 }
+
+#survey-developers-types {
+  height: 700px;
+}
+
+#survey-opensource-contribution {
+  height: 210px;
+}
+
+#survey-coding-hobby {
+  height: 210px;
+}
