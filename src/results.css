@@ -1,0 +1,89 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #f5f5f5;
+}
+
+.loaded .x-font, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif
+}
+
+body > .container-fluid {
+    padding: 60px 15px 0;
+}
+
+.subsection-head {
+  padding-top: 3%;
+}
+
+.bd-lead {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.bd-links {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.bd-toc-item.active {
+  margin-bottom: 1rem;
+}
+
+.bd-toc-link {
+    display: block;
+    padding: .25rem 1.5rem;
+    font-weight: 500;
+    color: rgba(0,0,0,.65);
+}
+
+.bd-toc-item.active>.bd-toc-link {
+    color: rgba(0,0,0,.85);
+}
+
+.bd-toc-item.active>.bd-sidenav {
+    display: block;
+}
+
+.bd-sidebar .nav>li>a {
+    display: block;
+    padding: .25rem 1.5rem;
+    font-size: 90%;
+    color: rgba(0,0,0,.65);
+}
+
+@media (min-width: 768px) {
+  .bd-links {
+    display: block!important;
+  }
+
+  .bd-links {
+    max-height: calc(100vh - 9rem);
+    overflow-y: auto;
+  }
+}
+
+
+/*  Graphs */
+.charts {
+  max-width: 80%;
+}
+#survey-respondents {
+  height: 600px
+}
